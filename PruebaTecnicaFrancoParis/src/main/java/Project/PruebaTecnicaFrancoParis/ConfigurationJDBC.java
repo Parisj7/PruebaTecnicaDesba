@@ -11,17 +11,17 @@ public class ConfigurationJDBC {
     private String contrasenaUsuario;
     private Connection connection;
 
- //    public ConfigurationJDBC() {
-//        this.dbUrl = "jdbc:sqlserver://localhost:1433;databaseName=Productos;integratedSecurity=true;";
-//        this.nombreUsuario = "sa";
-//        this.contrasenaUsuario = "yourStrong(!)Password";
-//    }
-
-    public ConfigurationJDBC() {
-        this.dbUrl = "jdbc:mysql://localhost:3306/products";
-        this.nombreUsuario = "root";
-        this.contrasenaUsuario = "***********";
+     public ConfigurationJDBC() {
+        this.dbUrl = "jdbc:sqlserver://localhost:1433;databaseName=CSVReader;integratedSecurity=false;";
+        this.nombreUsuario = "sa";
+        this.contrasenaUsuario = "yourStrong(!)Password";
     }
+
+//    public ConfigurationJDBC() {
+//        this.dbUrl = "jdbc:mysql://localhost:3306/products";
+//        this.nombreUsuario = "root";
+//        this.contrasenaUsuario = "*******";
+//    }
 
     public Connection conectarConBaseDeDatos() {
 

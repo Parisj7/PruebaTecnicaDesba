@@ -9,8 +9,7 @@ import java.io.Serializable;
 @Table(name = "Productos")
 public class Product implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id_producto", nullable = false)
+    @GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)    @Column(name = "id_producto", nullable = false)
     private Long idProducto;
     @Column(name="UPCPLU",unique=true)
     @Nullable

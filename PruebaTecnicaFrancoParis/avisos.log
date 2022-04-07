@@ -8,3 +8,18 @@
 [2022-04-0622:30:06] [ INFO ] [CSVReader:60] Falta la descripcion del producto en la linea 16 del archivo
 [2022-04-0622:30:06] [ INFO ] [CSVReader:91] falta el precio o el mismo no es correcto para:Detergente ALA plus limon x750 ml en la linea 20 del archivo
 [2022-04-0622:30:08] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Desodorante OLD SPICE foxcrest body spray x152 ml en la linea 59 del archivo
+[2022-04-0711:42:40] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Detergente MAGISTRAL manzana x500 ml en la linea 6 del archivo
+[2022-04-0711:42:40] [ INFO ] [CSVReader:54] Falta la marca del producto en la linea 12 del archivo
+[2022-04-0711:42:40] [ INFO ] [CSVReader:60] Falta la descripcion del producto en la linea 16 del archivo
+[2022-04-0711:42:40] [ INFO ] [CSVReader:91] falta el precio o el mismo no es correcto para:Detergente ALA plus limon x750 ml en la linea 20 del archivo
+[2022-04-0711:42:42] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Desodorante OLD SPICE foxcrest body spray x152 ml en la linea 59 del archivo
+[2022-04-0712:48:43] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Detergente MAGISTRAL manzana x500 ml en la linea 6 del archivo
+[2022-04-0712:48:43] [ INFO ] [CSVReader:54] Falta la marca del producto en la linea 12 del archivo
+[2022-04-0712:48:43] [ INFO ] [CSVReader:60] Falta la descripcion del producto en la linea 16 del archivo
+[2022-04-0712:48:43] [ INFO ] [CSVReader:91] falta el precio o el mismo no es correcto para:Detergente ALA plus limon x750 ml en la linea 20 del archivo
+[2022-04-0712:48:44] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Desodorante OLD SPICE foxcrest body spray x152 ml en la linea 59 del archivo
+[2022-04-0712:56:48] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Detergente MAGISTRAL manzana x500 ml en la linea 6 del archivo
+[2022-04-0712:56:48] [ INFO ] [CSVReader:54] Falta la marca del producto en la linea 12 del archivo
+[2022-04-0712:56:48] [ INFO ] [CSVReader:60] Falta la descripcion del producto en la linea 16 del archivo
+[2022-04-0712:56:49] [ INFO ] [CSVReader:91] falta el precio o el mismo no es correcto para:Detergente ALA plus limon x750 ml en la linea 20 del archivo
+[2022-04-0712:56:50] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Desodorante OLD SPICE foxcrest body spray x152 ml en la linea 59 del archivo

@@ -46,7 +46,7 @@ public class CSVReader {
 
                 System.out.println(Arrays.toString(campos));
 
-                productService.alter();
+//                productService.alter();
 
                 try {
 

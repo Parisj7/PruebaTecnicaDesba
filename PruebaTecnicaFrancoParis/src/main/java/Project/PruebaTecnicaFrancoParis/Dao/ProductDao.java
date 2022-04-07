@@ -55,7 +55,7 @@ public class ProductDao {
     public void update (Product product){
         Connection connection = configuracionJDBC.conectarConBaseDeDatos();
         Statement stmt = null;
-        String query = String.format("UPDATE products.Productos SET marca='%s', descripcion ='%s', unidades='%s', precio='%s' WHERE upcplu ='%s'"
+        String query = String.format("UPDATE Productos SET marca='%s', descripcion ='%s', unidades='%s', precio='%s' WHERE upcplu ='%s'"
                 ,product.getMarca(), product.getDescripcion(), product.getUnidades(),product.getPrecio(),product.getUPCPLU());
         try {
             stmt = connection.createStatement();
@@ -66,19 +66,19 @@ public class ProductDao {
         }
     }
 
-    public void alterTable(){
-
-        Connection connection = configuracionJDBC.conectarConBaseDeDatos();
-        Statement stmt = null;
-        String queryAlter = String.format("ALTER TABLE `products`.`productos` \n CHANGE COLUMN `id_producto` `id_producto` BIGINT NOT NULL AUTO_INCREMENT ;");
-        try {
-            stmt = connection.createStatement();
-            stmt.executeUpdate(queryAlter);
-            stmt.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
-    }
+//    public void alterTable(){
+//
+//        Connection connection = configuracionJDBC.conectarConBaseDeDatos();
+//        Statement stmt = null;
+//        String queryAlter = String.format("ALTER TABLE `products`.`productos` \n CHANGE COLUMN `id_producto` `id_producto` BIGINT NOT NULL AUTO_INCREMENT ;");
+//        try {
+//            stmt = connection.createStatement();
+//            stmt.executeUpdate(queryAlter);
+//            stmt.close();
+//        } catch (SQLException throwables) {
+//            throwables.printStackTrace();
+//        }
+//    }
 
 
     private Product crearProducto(ResultSet result) throws SQLException {

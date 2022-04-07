@@ -16,9 +16,9 @@ public class ProductService {
         productDao.save(product);
     }
 
-    public void alter(){
-        productDao.alterTable();
-    }
+//    public void alter(){
+//        productDao.alterTable();
+//    }
 
     public Optional<Product> searchUPC(Long upc){
         return productDao.searchUPC(upc);
