@@ -7,9 +7,10 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "Productos")
-public class Product implements Serializable {
-    @Id
-    @GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)    @Column(name = "id_producto", nullable = false)
+public class Product implements Serializable { //En esta clase se crea la tabla con sus columnas y caracteristicas,
+    @Id                                        //junto con los constructores que se usaran durante a lo largo del programa
+    @GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)
+    @Column(name = "id_producto", nullable = false)
     private Long idProducto;
     @Column(name="UPCPLU",unique=true)
     @Nullable

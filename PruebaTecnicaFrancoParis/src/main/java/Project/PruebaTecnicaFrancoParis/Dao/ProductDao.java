@@ -9,8 +9,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Optional;
 
-public class ProductDao {
-    private ConfigurationJDBC configuracionJDBC;
+public class ProductDao {                               //Esta clase se encarga de crear las conexiones y ejecutar
+    private ConfigurationJDBC configuracionJDBC;        // las querys necesarias
 
     public ProductDao(ConfigurationJDBC configuracionJDBC) {
         this.configuracionJDBC = configuracionJDBC;
@@ -65,20 +65,6 @@ public class ProductDao {
             throwables.printStackTrace();
         }
     }
-
-//    public void alterTable(){
-//
-//        Connection connection = configuracionJDBC.conectarConBaseDeDatos();
-//        Statement stmt = null;
-//        String queryAlter = String.format("ALTER TABLE `products`.`productos` \n CHANGE COLUMN `id_producto` `id_producto` BIGINT NOT NULL AUTO_INCREMENT ;");
-//        try {
-//            stmt = connection.createStatement();
-//            stmt.executeUpdate(queryAlter);
-//            stmt.close();
-//        } catch (SQLException throwables) {
-//            throwables.printStackTrace();
-//        }
-//    }
 
 
     private Product crearProducto(ResultSet result) throws SQLException {

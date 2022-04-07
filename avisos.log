@@ -1,0 +1,15 @@
+[2022-04-0718:56:57] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Detergente MAGISTRAL manzana x500 ml en la linea 6 del archivo
+[2022-04-0718:56:57] [ INFO ] [CSVReader:54] Falta la marca del producto en la linea 12 del archivo
+[2022-04-0718:56:57] [ INFO ] [CSVReader:60] Falta la descripcion del producto en la linea 16 del archivo
+[2022-04-0718:56:57] [ INFO ] [CSVReader:91] falta el precio o el mismo no es correcto para:Detergente ALA plus limon x750 ml en la linea 20 del archivo
+[2022-04-0718:56:58] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Desodorante OLD SPICE foxcrest body spray x152 ml en la linea 59 del archivo
+[2022-04-0718:57:21] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Detergente MAGISTRAL manzana x500 ml en la linea 6 del archivo
+[2022-04-0718:57:21] [ INFO ] [CSVReader:54] Falta la marca del producto en la linea 12 del archivo
+[2022-04-0718:57:22] [ INFO ] [CSVReader:60] Falta la descripcion del producto en la linea 16 del archivo
+[2022-04-0718:57:22] [ INFO ] [CSVReader:91] falta el precio o el mismo no es correcto para:Detergente ALA plus limon x750 ml en la linea 20 del archivo
+[2022-04-0718:57:22] [ INFO ] [CSVReader:85] Falta el codigo PLU o el mismo no es correcto para: Desodorante OLD SPICE foxcrest body spray x152 ml en la linea 59 del archivo
+[2022-04-0719:03:48] [ INFO ] [CSVReader:83] Falta el codigo PLU o el mismo no es correcto para: Detergente MAGISTRAL manzana x500 ml en la linea 6 del archivo
+[2022-04-0719:03:48] [ INFO ] [CSVReader:52] Falta la marca del producto en la linea 12 del archivo
+[2022-04-0719:03:48] [ INFO ] [CSVReader:58] Falta la descripcion del producto en la linea 16 del archivo
+[2022-04-0719:03:48] [ INFO ] [CSVReader:89] falta el precio o el mismo no es correcto para:Detergente ALA plus limon x750 ml en la linea 20 del archivo
+[2022-04-0719:03:50] [ INFO ] [CSVReader:83] Falta el codigo PLU o el mismo no es correcto para: Desodorante OLD SPICE foxcrest body spray x152 ml en la linea 59 del archivo

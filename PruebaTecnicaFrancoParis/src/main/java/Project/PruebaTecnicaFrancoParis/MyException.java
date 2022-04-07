@@ -1,7 +1,7 @@
 package Project.PruebaTecnicaFrancoParis;
 
-public class MyException extends Exception{
-    private int errorCode;
+public class MyException extends Exception{                     //Excepciones creadas para marcar errores no vitales
+    private int errorCode;                                      // para el programa pero que causan una erronea carga de datos
 
     public MyException(int errorCode){
         super();
